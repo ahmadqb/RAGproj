@@ -1,0 +1,20 @@
+INCIDENT REPORT #2024-087
+Date: 2024-09-15
+Machine: MCH-03
+Issue: Repeated E-451 errors causing production downtime
+Root cause: Ambient temperature in the fastening cell reached 38°C due to 
+failed HVAC unit. The torque sensor drifted and triggered calibration errors.
+Resolution: Maintenance replaced HVAC filter and recalibrated sensor. 
+Production resumed after 2 hours of downtime.
+Preventive action: Installed temperature monitoring alert at 33°C threshold.
+
+INCIDENT REPORT #2024-102
+Date: 2024-10-03
+Machine: MCH-01
+Issue: Operator injury - minor hand laceration
+Root cause: Operator removed safety guard without following LOTO procedure 
+while clearing a jam in the fastening mechanism.
+Resolution: Operator received first aid, no lost time. Retraining scheduled 
+for all fastening cell operators on LOTO procedures.
+Preventive action: Installed interlock switch on safety guard to prevent 
+operation when guard is open.

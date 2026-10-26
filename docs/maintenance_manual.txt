@@ -1,0 +1,24 @@
+MAINTENANCE MANUAL - FASTENING MACHINES
+
+Error Code E-451: Torque Sensor Calibration Required
+When error E-451 appears, the torque sensor on the fastening machine has drifted 
+outside acceptable tolerances. This typically occurs after 10,000 cycles or when 
+ambient temperature exceeds 35°C.
+
+Resolution procedure:
+1. Power down the machine and wait 5 minutes for thermal stabilization
+2. Remove the torque sensor cover (4x M6 bolts)
+3. Connect the calibration tool (part #CAL-2024-A) to the sensor port
+4. Run the auto-calibration routine via the service menu
+5. Verify with a known 50 Nm reference torque
+6. Restart the machine and clear the error code
+
+Safety: Always wear insulated gloves when working near the torque sensor.
+
+Error Code E-203: Communication Timeout
+The machine has lost connection to the central PLC. Check Ethernet cable and 
+verify IP address 192.168.1.50 is reachable.
+
+Error Code E-712: Emergency Stop Activated
+An emergency stop button has been pressed. Check all E-stop buttons on the 
+machine and surrounding area. Reset by twisting the button clockwise.
